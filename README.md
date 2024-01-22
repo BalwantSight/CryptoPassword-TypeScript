@@ -9,7 +9,8 @@ Este Proyecto es un ejercicio para practicar Typescript. Consiste en un simple p
 <h2>Captura</h2>
 <div align="center">
 
-![wwlow](https://github.com/BalwantSight/CryptoPassword-Typescript/assets/103304256/bebf76d3-99be-486b-8d67-f5ecd6b226af)
+
+![mod](https://github.com/BalwantSight/CryptoPassword-TypeScript/assets/103304256/a1f06ea9-f765-42a3-b838-18da203880f1)
 
 
 </div>
@@ -18,6 +19,7 @@ Este Proyecto es un ejercicio para practicar Typescript. Consiste en un simple p
 
 - Generación de contraseñas seguras con opciones configurables.
 - Posibilidad de guardar contraseña mediante botón.
+- Modal de confirmación de guardado.
 - Interfaz de usuario intuitiva con un botón para generar contraseñas.
 - Estilos elegantes utilizando CSS para mejorar la presentación.
 
