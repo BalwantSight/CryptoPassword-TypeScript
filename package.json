@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  },
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pablo Elizondo Vega",
+  "license": "ISC",
+  "description": "Generación de contraseña segura usando Typescript"
+}

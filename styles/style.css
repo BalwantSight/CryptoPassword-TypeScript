@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #52524b;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  margin: 0;
+  height: 100vh;
+}
+
+button {
+  width: 16em;
+  height: 4em;
+  background-color: #5d9b90;
+  color: #ffffff;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #97871c;
+}
+
+#passwordDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20em;
+  height: 2em;
+}
+
+.password-display {
+  width: 20em;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffffb3;
+  border-radius: 5px;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.password-display:not(:empty) {
+  opacity: 1;
+}
+
+.password-display:empty {
+  opacity: 0;
+}
+
