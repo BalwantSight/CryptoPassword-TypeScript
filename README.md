@@ -5,7 +5,8 @@ Proyecto es un ejercicio para practicar Typescript. Consiste en un simple proyec
 <h2>Captura</h2>
 <div align="center">
 
-![wwlow](https://github.com/BalwantSight/CryptoPassword-Typescript/assets/103304256/189a9626-47ff-45f3-bdb8-94f0b5129adb)
+![wwlow](https://github.com/BalwantSight/CryptoPassword-Typescript/assets/103304256/bebf76d3-99be-486b-8d67-f5ecd6b226af)
+
 
 </div>
 
