@@ -1,4 +1,8 @@
-<h1>Generador de Contraseñas con TypeScript</h1>
+<div align="center">
+  
+  <h1>Generador de Contraseñas con TypeScript</h1>
+
+</div>
 
 Proyecto es un ejercicio para practicar Typescript. Consiste en un simple proyecto que genera de contraseñas seguras con interfaz fácil y rápida de usar.
 
