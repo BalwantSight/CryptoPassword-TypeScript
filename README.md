@@ -17,6 +17,7 @@ Este Proyecto es un ejercicio para practicar Typescript. Consiste en un simple p
 <h2> Características Principales</h2>
 
 - Generación de contraseñas seguras con opciones configurables.
+- Posibilidad de guardar contraseña mediante botón.
 - Interfaz de usuario intuitiva con un botón para generar contraseñas.
 - Estilos elegantes utilizando CSS para mejorar la presentación.
 

@@ -2,17 +2,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  gap: 0.3em;
   background-color: #52524b;
   font-family: "Roboto", sans-serif;
   font-size: larger;
-  margin: 0;
+  margin-top: 10em;
   height: 100vh;
 }
 
 button {
   width: 16em;
-  height: 4em;
+  height: 3.5em;
   background-color: #5d9b90;
   color: #ffffff;
   font-size: larger;
@@ -20,6 +21,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 button:hover {
@@ -27,11 +29,9 @@ button:hover {
 }
 
 #passwordDisplay {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 20em;
-  height: 2em;
+  height: 1.3em;
+  margin-top: 20px;
 }
 
 .password-display {
@@ -40,8 +40,11 @@ button:hover {
   padding: 10px;
   background-color: #ffffffb3;
   border-radius: 5px;
-  display: block;
   transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
 }
 
 .password-display:not(:empty) {
@@ -52,3 +55,39 @@ button:hover {
   opacity: 0;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: -30px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #00000080;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
