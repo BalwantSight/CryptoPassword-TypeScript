@@ -4,7 +4,7 @@
 
 </div>
 
-Proyecto es un ejercicio para practicar Typescript. Consiste en un simple proyecto que genera de contraseñas seguras con interfaz fácil y rápida de usar.
+Este Proyecto es un ejercicio para practicar Typescript. Consiste en un simple proyecto que genera de contraseñas seguras con interfaz fácil y rápida de usar.
 
 <h2>Captura</h2>
 <div align="center">
